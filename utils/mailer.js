@@ -16,7 +16,6 @@ const transporter = nodemailer.createTransport({
             } else {
                // console.log(`Email sent: ${mailOptions?.to}, ` + info.response);
                 resolve();
-                // do something useful
             }
         });
     })
